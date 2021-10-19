@@ -1,0 +1,14 @@
+modules:
+  confluence:spacePage:
+    - key: contributors-space-page-hello-world
+      function: main
+      title: Contributors
+      route: hello-world
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/d7271ccd-ee78-40b6-95ba-3ab8287fe635
+permissions:
+  scopes:
+    - read:confluence-content.summary
